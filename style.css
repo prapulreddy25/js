@@ -1,0 +1,126 @@
+html,body{overflow-x: hidden !important;
+    width: auto !important;
+    }
+
+#navbarNavDropdown a:hover{
+    color:white;
+    background-color: black;
+}
+#navbarNavDropdown a{
+    color:white;
+}
+/* <=======navbar section end====> */
+
+
+
+.team{
+    
+    position: relative; 
+   }
+   
+   .team .des{
+    color: #fff;
+    text-align: center;
+   transition:.3s ease-in-out;
+    justify-content: center;
+ } 
+  /* <!-- Team section end---- --> */
+
+
+   
+   .section-4 p{
+font-size: 20px;
+   }
+
+/* 
+   <!-- testimonials end --> */
+
+.LATEST .what {color: #ffcd00;
+font-size: 40px;
+}
+.LATEST .latest{letter-spacing: 2px;}
+
+/* <==========LATEST  section end=====> */
+    .section-6{
+       text-align: center;
+    }
+       
+ 
+
+   
+   .BLACKCARS{
+    background-image: url(images/sub-banner-01.png);
+    height:250px;
+    background-size: cover;
+    color: #ffcd00;
+    
+}
+
+.MONTHLY{
+    background-image: url(images/sub-banner-02.png);
+    background-size: cover;
+   
+    margin-top: 30px;
+ color: #333;
+ height:250px;
+     background-color:#ffcd00; 
+    }
+ /* <!-- <========BLACK CARS end=======> --> */
+
+    
+    @media screen and (max-width:768px){
+.section-8 img{
+    padding-bottom:20px;
+}
+    }
+        
+    
+    .section-8 h2{
+       padding: 50px;
+    }
+    /* <========foooter======> */
+    .RoyalCars{
+        background-color:#ffcd00; 
+        color: #fff;
+    }
+    
+    
+
+    .social{
+        color: #fff;
+            }
+            .social-icons{letter-spacing: 3px;}
+
+
+            .btn{background-color:#ffcd00;}
+            .btn:hover { background-color:#4e4419;}
+
+            #list li{
+                list-style: none;
+            }
+             /* <========foooter end======> */
+
+
+             /* <=======Top to click button======> */
+           #topBtn{
+               position: fixed;
+               bottom: 2em;
+               right: 2em;
+               text-decoration: none;
+               color: #fff;
+               background-color: rgba(0,0,0,0.3);
+               font-size: 12px;
+               padding: 1em;
+               display: block;
+               border-radius: 50%;
+            
+           }
+
+           #topBtn:hover{
+               background-color: rgba(221, 122, 122, 0.6);
+           }
+         /* <========top to click button=====> */
+
+
+           .image1{  border-radius: 20px; opacity:0.9;padding-left: 10px; padding-top: 10px; }
+    .image1:hover{  border-radius: 70px;  opacity: 0.2;  }
